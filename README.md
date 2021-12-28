@@ -6,7 +6,7 @@ So, in about one and half hour (I forgot alot in bash and regexp without practic
 # How it works?
 
 You have to place script into root directory of unpacked LiL EF.
-Don't forget ```shell chmod +x ./mv-me.sh```
+Don't forget ``` chmod +x ./mv-me.sh```
 And give any directory with LiL EF  to work like this:
 ```shell
 ./mv-me.sh __Ex__Files__SomeLiL__Course__
