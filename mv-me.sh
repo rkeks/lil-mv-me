@@ -3,7 +3,7 @@
 search_dir=${1%/}
 BASEDIR=$(dirname "$0")
 fex='Files$'
-srex='(Ex_Files_)'
+srex='(Ex_Files)'
 [[ $search_dir =~ $srex ]] && rename_base=1
 for entry in "$search_dir"/*
 do
